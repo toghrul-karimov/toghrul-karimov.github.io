@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Toghrul</title>
+    <style>
+        .content {
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .column1 {
+            float: left;
+            width: 50%;
+            padding: 10px;
+        }
+        .column2 {
+            float: right;
+            padding: 10px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="row">
+            <div class="column1">
+                <h1>Toghrul Karimov</h1>
+                <p>PhD student at Max Planck Institute for Software Systems<br>
+                Room 512, Campus E1 5<br>
+                Saarbrücken, Germany<br>
+                toghs@mpi-sws.org</p>
+            </div>
+            <div class="column2">
+                <img src="assets/images/toghrul.JPG" height="240" />
+            </div>
+        </div>
+
+
+        <h2>Publications</h2>
+        <ul>
+            <li>
+                S. Almagor, T. Karimov, E. Kelmendi, J. Ouaknine, and J. Worrell.
+                <a href="./assets/papers/omega_LRS21.pdf">
+                    Deciding ω-regular properties on linear recurrence sequences.
+                </a>
+            </li>
+            <li>
+                C. Baier, F. Funke, S. Jantsch, T. Karimov, E. Lefaucheux, J. Ouaknine,
+                A. Pouly, D. Purser, and M. A. Whiteland.
+                <a href="./assets/papers/dynamical_systems_orbit_rounding20.pdf">
+                    Reachability in dynamical systems with rounding.</a>
+            </li>
+            <li>T.Karimov, J.Ouaknine, and J.Worrell.
+                <a href="./assets/papers/LTL_discrete_LDS20.pdf">On LTL model-checking for low-dimensional discrete
+                    linear dynamical systems.</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
