@@ -1,3 +1,5 @@
+* {-webkit-font-smoothing: antialiased;}
+
 body {
     display: flex;
     flex-direction: column;
