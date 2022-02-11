@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-} 
+}
 
 * {
     box-sizing: border-box;
@@ -36,4 +36,15 @@ body {
 #publications, #about-me {
     flex: 1;
     margin-left: 8px;
+}
+
+/*
+a {
+  color: blue;
+  text-decoration: none;
+}
+*/
+
+.paper-name {
+  font-weight: 600;
 }
