@@ -47,6 +47,10 @@ a {
 }
 */
 
+a:visited{
+  
+}
+
 .paper-name {
   font-weight: bold;
 }
