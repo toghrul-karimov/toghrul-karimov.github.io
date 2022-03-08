@@ -52,5 +52,6 @@ a:visited{
 }
 
 .paper-name {
-  font-weight: bold;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
