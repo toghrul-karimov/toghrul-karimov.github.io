@@ -8,3 +8,4 @@ assets/cv/cv.synctex.gz
 *.gz
 assets/.DS_Store
 *.aux
+*.log
