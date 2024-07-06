@@ -1,0 +1,10 @@
+
+.DS_Store
+assets/.DS_Store
+assets/.DS_Store
+*.aux
+*.log
+assets/cv/cv.synctex.gz
+*.gz
+assets/.DS_Store
+*.aux
