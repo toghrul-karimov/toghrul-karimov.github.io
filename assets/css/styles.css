@@ -6,7 +6,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    max-width: 885px;
+    max-width: 1000px;
     background-color:seashell;
 }
 
@@ -31,6 +31,11 @@ body {
     padding: 10px;
 }
 #photoToghrul {
+    float: right;
+    padding: 10px;
+}
+
+#photoToghrul2 {
     float: right;
     padding: 10px;
 }
