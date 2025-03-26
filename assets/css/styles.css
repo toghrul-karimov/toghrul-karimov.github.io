@@ -6,8 +6,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    max-width: 1000px;
-    background-color:seashell;
+    max-width: 900px;
+    background-color: ghostwhite;
+    font-family: Georgia, sans-serif;
 }
 
 #row1 {
@@ -52,15 +53,22 @@ a {
 }
 */
 
+a{
+  target = "_blank";
+}
 a:visited{
   color: blue;
 }
 
 .paper-name {
-  font-size: 120%;
+  font-size: 130%;
   line-height: 160%;
 }
 
 .paper{
-  margin-left: 10px;
+  margin-left: 2px;
+  padding-left: 5px;
+  line-height: 30px;
+  border-left: solid;
+  margin-bottom: 30px;
 }
