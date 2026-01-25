@@ -1,34 +1,40 @@
 \documentclass{article}
-\usepackage[margin=3cm]{geometry}
-\usepackage[dvipsnames]{xcolor}
-\usepackage[hidelinks]{hyperref}
+
+\usepackage{mathtools,amsfonts,amsthm,amssymb} 
+\usepackage{multicol}
+\usepackage[margin=2.7cm]{geometry}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{etaremune}
 \hypersetup{
-    colorlinks=true,
-    linkcolor=gray,
-    filecolor=magenta,      
-    urlcolor=RoyalBlue,
-    pdftitle={Toghrul KarimovV},
-    pdfpagemode=FullScreen,
-    }
-\title{\bfseries\Huge Toghrul Karimov}
-\author{\{email: toghs@mpi-sws.org, website: toghrul-karimov.github.io\}}
+	colorlinks,
+	linkcolor={black},
+	citecolor={blue!50!black},
+	urlcolor={red!40!black}
+}
+
+\title{CV}
+\author{Toghrul Karimov}
+\date{Max Planck Institute for Software Systems, Saarbr\"ucken, Germany}
 \date{}
+
 \begin{document}
-	\maketitle
-	
-	Theoretical computer scientist working on decision problems that lie at the intersection of dynamical systems, number theory, logic, and automata theory
-	
-	\section*{Employment}
+	\begin{center}
+		\bfseries\huge Toghrul Karimov
+	\end{center}
+	\begin{center}
+		\large
+		\{email: toghs@mpi-sws.org, website: toghrul-karimov.github.io\}
+	\end{center}
+	\section*{Academic employment\footnote{I am currently employed by the Max Planck Institute for Software Systems in Saarbrücken, Germany, and paid by an ERC Synergy grant between Paris and Saarbrücken. I travel regularly to Paris, where I work with V. Berth\'e and others.}}
 	\begin{minipage}{0.3\textwidth}
-		\hspace{0.1cm} \textbf{Apr 2025 - present}
+		\hspace{0.1cm} \textbf{04/2025 - present}
 	\end{minipage}
 	\vspace*{0.25cm}
 	\begin{minipage}{0.7\textwidth}
-		Postdoctoral researcher working with Val\'erie Berth\'e 
-		
-		\vspace*{0.2cm}
-		
-		IRIF, CNRS, Paris and Max Planck Institute for Software Systems (MPI-SWS), Saarbr\"ucken, Germany
+		Postdoctoral researcher working with Val\'erie Berth\'e (Institut de Recherche en Informatique Fondamental, Paris, France)  
+		%and Jo\"el Ouaknine (Max Planck Institute for Software Systems, Saarbr\"ucken)
 		
 		\vspace*{0.2cm}
 		
@@ -37,36 +43,35 @@
 	\end{minipage}
 	\vspace{0.85cm}
 	\begin{minipage}{0.3\textwidth}
-		\hspace{0.1cm} \textbf{Mar 2024 - Mar 2025}
+		\hspace{0.1cm} \textbf{03/2024 - 03/2025}
 	\end{minipage}
 	\begin{minipage}{0.7\textwidth}
-		Postdoctoral researcher working with Jo\"el Ouaknine
+		Postdoctoral researcher working with Jo\"el Ouaknine (Max Planck Institute for Software Systems, Saarbr\"ucken, Germany)
+	\end{minipage}
+	
+	
+	\section*{Education}
+	\begin{minipage}{0.3\textwidth}
+		\hspace{0.5cm} \textbf{2019-2024}
+	\end{minipage}
+	\vspace*{0.25cm}
+	\begin{minipage}{0.7\textwidth}
+		PhD student at Saarland University and the Max Planck Institute for Software Systems, Saarbrücken, Germany
 		
 		\vspace*{0.2cm}
-		MPI-SWS, Saarbr\"ucken, Germany
-	\end{minipage}
+		Supervisor: Jo\"el Ouaknine 
 		
-	\section*{Education}
-		\begin{minipage}{0.3\textwidth}
-			\hspace{0.1cm} \textbf{Sep 2019 - Feb 2024}
-		\end{minipage}
-		\vspace*{0.25cm}
-		\begin{minipage}{0.7\textwidth}
-			PhD student at Saarland University and the MPI-SWS, Germany
-			
-			\vspace*{0.2cm}
-			Supervisor: Jo\"el Ouaknine 
-			
-			\vspace*{0.2cm}
-			Thesis: \href{https://publikationen.sulb.uni-saarland.de/handle/20.500.21880/37285}{Algorithmic verification of linear dynamical systems}
-			
-			\vspace*{0.2cm}
-			Received the grade \emph{summa cum laude}, nominated for the Dissertation Prize of the German Informatics Society
-                \vspace{0.3cm}
-		\end{minipage}
-		\vspace{0.85cm}
-		\begin{minipage}{0.3\textwidth}
-		\hspace{0.1 cm} \textbf{Oct 2015 - May 2019}
+		\vspace*{0.2cm}
+		Thesis: Algorithmic verification of linear dynamical systems \href{https://doi.org/doi:10.22028/D291-41630}{doi}
+		
+		\vspace*{0.2cm}
+		Co-received the Ackermann Award 2025
+		% nominated for various dissertation awards (outcomes pending)
+		\vspace{0.3cm}
+	\end{minipage}
+	\vspace{0.85cm}
+	\begin{minipage}{0.3\textwidth}
+		\hspace{0.5cm} \textbf{2015-2019}
 	\end{minipage}
 	\begin{minipage}{0.7\textwidth}
 		MCompSci Computer Science, University of Oxford, UK
@@ -74,183 +79,311 @@
 		\vspace*{0.2cm}
 		First Class Honours
 	\end{minipage}
+	%\section*{Research areas}
+	%\begin{itemize}
+	%	\item I am a theoretical computer scientist working on decision problems that lie at the intersection of dynamical systems, number theory, logic, and automata theory.
+	%	\item My PhD thesis was about decision problems that arise in verification of linear dynamical systems.
+	%\end{itemize}
 	
 	\section*{Scholarships and awards}
-	\begin{enumerate}
-		\item CPEC (see \url{www.perspicuous-computing.science}) mini-project award for a two-week research visit to Oxford University; Deutsche Forschungsgemeinschaft grant 389792660
-		\item Keble College Scholarship, 2016-2019. Awarded for excellent performance in exams at the end of each year
-		\item The Scholarship of the Ministry of Education of Azerbaijan covering the full costs of my study at the University of Oxford, 2015-2019
-	\end{enumerate}
+	\begin{etaremune}
+		\item EACSL \textbf{Outstanding Dissertation Award} for Logic in Computer Science (Ackermann Award) 2025.
+		
+		\item \textbf{Fellowship} of the Hausdorff Research Institute for Mathematics (HIM) in Bonn to attend the Trimester Program ``Definability, Decidability, and Computability'', October 2025 
+		
+		\item ACM-SIGBED \textbf{Best Paper Award} at the conference Hybrid Systems: Computation and Control (HSCC) 2024 for the paper ``Linear dynamical systems with continuous weight functions'' together with R. Aghamov, C. Baier, J. Ouaknine, and J. Piribauer. 
+		\item \textbf{Distinguished Paper Award} at the conference ACM/IEEE Symposium on Logic in Computer Science (LICS) 2024 for the paper ``On the decidability of monadic second-order logic with arithmetic predicates'' together with V. Berth\'e, J. Nieuvweld, J. Ouaknine, M. Vahanwala, and J. Worrell. 
+		\item CPEC (see \url{www.perspicuous-computing.science}) \textbf{mini-project award} for a two-week research visit to University of Oxford, June 2022.
+		\item Keble College \textbf{Scholarship}, 2016-2019. Awarded for excellent academic performance at the end of each year.
+		\item The \textbf{Scholarship} of the Ministry of Education of Azerbaijan covering the full costs of my study at the University of Oxford, 2015-2019.
+	\end{etaremune}
 	
+	\vspace*{0.2cm}
 	\section*{Teaching}
+	
 	\noindent\begin{minipage}{0.3\textwidth}
-		\hspace{0.1cm} \textbf{Summer 2020}
+		\hspace{0.5cm} \textbf{Winter 2022}
 	\end{minipage}
 	\begin{minipage}{0.7\textwidth}
-		Graduate-level course ``Automata and sequences'', teaching assistant\vspace{0.2cm} 
+		``Topics in algorithmic dynamical systems theory'', teaching assistant 
 		
 		Saarland University
 	\end{minipage}
 	
-	\vspace{0.5cm}
+	\vspace{0.3cm}
 	
 	\noindent\begin{minipage}{0.3\textwidth}
-		\hspace{0.1cm} \textbf{Winter 2022}
+		\hspace{0.5cm} \textbf{Summer 2020}
 	\end{minipage}
 	\begin{minipage}{0.7\textwidth}
-		Graduate-level course ``Topics in algorithmic dynamical systems theory'', teaching assistant \vspace{0.2cm}
+		``Automata and sequences'', teaching assistant 
 		
 		Saarland University
 	\end{minipage}
-
-	\vspace*{0.3cm}
 	
-	\section*{Invited talks and conference presentations}
-	\begin{enumerate}
-		\setlength\itemsep{0.3cm}
-		\item Applications of o-minimality to linear loops. \emph{Workshop On Loop Invariants and Algebraic Reasoning}, Aarhus, Denmark, 2025
-		\item From word combinatorics to automatic structures. \emph{Workshop on Recent Developments in Arithmetic Theories and Applications}, Kolkata, India, 2025
-		\item On the decidability of Presburger arithmetic expanded with powers. \emph{SODA 2025}, New Orleans, United States
-		\item Ode to o-minimality. \emph{Symbolic Dynamics and Arithmetic Expansions} workshop in Roscoff, France, 2024 and \emph{Stellenbosch University Logic Seminar}, online
-		\item The power of Positivity. \emph{LICS 2023}, Boston, United States
-		\item The model-checking problem for linear dynamical systems. \emph{Bellairs 2023} workshop in Barbados
-		\item The pseudo-reachability problem for diagonalisable affine dynamical systems. \emph{MFCS 2022}, Vienna, Austria and \emph{RP 2022}, Saarbr\"ucken, Germany
-		\item The pseudo-Skolem problem is decidable. \emph{MFCS 2021}, Tallinn, Estonia
-		%\item Invariants and impossibility: from geometric constructions to solving polynomial equations. \emph{Monsoon Math 2021}, an online camp for Indian students.
-		\item Deciding $\omega$-regular properties on linear recurrence sequences. \emph{POPL 2021}, online
-		%\item On verification of linear dynamical systems. \emph{Lighthning Talk at MPI-SWS, 2020, Saarbr\"ucken, Germany.}
+	\vspace*{0.4cm}
+	\section*{Invited talks and presentations}
+	\begin{etaremune}
+		\item
+		Decidability of logical theories via rigidity and randomness in dynamical systems.
+		% (conference presentation). 
+		\emph{Algebraic Methods in Dynamics and Particle Physics}, Saarbr\"ucken, Germany, 2025. \href{https://dynaverse2025.mpi-sws.org/decidability-of-logical-theories-via-rigidity-and-randomness-in-dynamical-systems/}{abstract and slides}
+		
+		\item Some applications of o-minimality to computational problems in dynamical systems theory (seminar talk). \emph{Hausdorff Research Institute for Mathematics}, Bonn, Germany, 2025. 
+		\href{https://www.youtube.com/watch?v=xwqYA9wns4g}{video recording}
+		
+		\item Arithmetic predicates and decidability of logical theories (invited talk).
+		\emph{Hausdorff Research Institute for Mathematics}, Bonn, Germany, 2025.
+		\href{https://www.youtube.com/watch?v=SYknkHCvM68}{video recording}
+		
+		\item Extensions of linear programming with squares and powers of integers (invited talk). \emph{Kyoto University}, Japan, 2025.
+		
+		\item Rich sequences and decidability of logical theories.
+		% (conference presentation). 
+		\emph{Numeration and Substitution 2025}, Tsukuba, Japan. \href{https://numeration2025.sciencesconf.org/}{conference website}
+		
+		\item Ergodicity for linear dynamical systems via o-minimality. %(conference presentation). 
+		\emph{Highlights of Logic, Games, and Automata 2025}, Saarbr\"ucken, Germany. \href{https://highlights-conference.org/2025/}{conference website}
+		
+		\item From word combinatorics to automatic structures (invited talk), \emph{Workshop on Recent Developments in Arithmetic Theories and Applications}, Kolkata, India, 2025. \href{https://logicindia.org/icla/icla2025/}{conference website}
+		
+		\item On the decidability of Presburger arithmetic expanded with powers (paper presentation). \emph{Symposium on Discrete Algorithm (SODA) 2025}, New Orleans, United States. \href{https://meetings.siam.org/sess/dsp_talk.cfm?p=145077}{abstract}
+		
+		\item Ode to o-minimality (invited talk). \emph{Symbolic Dynamics and Arithmetic Expansions}, Roscoff, France, and \emph{Stellenbosch University Logic Seminar}, South Africa, 2024. \href{https://www.irif.fr/~symdynar/uploads/Main/karimov_roscoff.pdf}{slides}
+		
+		\item The power of Positivity (paper presentation). \emph{Logic in Computer Science (LICS) 2023}, Boston, United States. \href{https://lics.siglog.org/archive/2023/}{conference website}
+		
+		\item The model-checking problem for linear dynamical systems. \emph{Workshop on Algorithmic Aspects of Dynamical Systems}, Barbados, 2023. \href{https://bellairs2023.mpi-sws.org/}{conference website}
+		
+		\item The pseudo-reachability problem for diagonalisable affine dynamical systems (paper presentation). \emph{Mathematical Foundations of Computer Science (MFCS) 2022}, Vienna, Austria, and \emph{Reachability Problems (RP) 2022}, Saarbr\"ucken, Germany. \href{https://www.ac.tuwien.ac.at/mfcs2022/accepted/}{conference website}, 
+		\href{https://rp2022.mpi-sws.org/program.html}{conference website}
+		
+		\item The pseudo-Skolem problem is decidable (paper presentation). \emph{Mathematical Foundations of Computer Science (MFCS) 2021}, Tallinn, Estonia. \href{https://compose.ioc.ee/mfcs/accepted.php}{conference website}
+		
+		\item Invariants and impossibility: from geometric constructions to solving polynomial equations. \emph{Monsoon Math 2021}, an online camp for Indian students.
+		
+		\item Deciding $\omega$-regular properties on linear recurrence sequences (paper presentation). \emph{Principles of Programming Languages (POPL) 2021}, online. \href{https://popl21.sigplan.org/profile/toghrulkarimov}{abstract}
+		
 		\item  On LTL model-checking for low-dimensional discrete
-		linear dynamical systems. \emph{MFCS 2020}, online
-	\end{enumerate}
-
-		\vspace*{0.3cm}
-		
-        \section*{Publications}
-
-    \begin{enumerate}
-    		\item
-    		\href{https://toghrul-karimov.github.io/assets/papers/multiple-reachability.pdf}{\large Multiple reachability in linear dynamical systems}
-    		\vspace*{0.2cm}\newline
-    		T. Karimov, E. Kelmendi, J. Ouaknine, J. Worrell
-    		\vspace*{0.25cm}\newline\emph{LICS 2025}
-    		\vspace{0.2cm}
-    		
-    		\item
-    		\href{https://toghrul-karimov.github.io/assets/papers/icalp25.pdf}{\large Verification of linear dynamical systems via o-minimality of the real numbers}
-    		\vspace*{0.2cm}\newline
-    		T. Karimov
-    		\vspace*{0.25cm}\newline\emph{ICALP 2025}
-    		\vspace{0.2cm}
-    
-            \item 
-            \href{https://toghrul-karimov.github.io/assets/papers/presburger-235.pdf}{\large On the decidability of Presburger arithmetic expanded with powers}
-            \vspace*{0.2cm}\newline
-            T. Karimov, F. Luca, J. Nieuwveld, J. Ouaknine, and J. Worrell
-		\vspace*{0.25cm}\newline\emph{SODA 2025}
-            \vspace{0.2cm}
-
-            \item\href{https://doi.org/10.2016/j.tcs.2024.114959}{\large The monadic theory of toric words}
-            \vspace*{0.2cm}\newline
-            V. Berth\'e, T. Karimov, J. Nieuwveld, J. Ouaknine, M. Vahanwala, and J. Worrell
-		\vspace*{0.25cm}\newline\emph{Theoretical Computer Science, Vol. 1025}
-            \vspace*{0.2cm}
-  
-		\item \href{https://doi.org/10.2145/3661814.3662119}{\large On the decidability of monadic second-order logic with arithmetic predicates}
-            \vspace*{0.2cm}
-		\newline
-            V. Berth\'e, T. Karimov, J. Nieuwveld, J. Ouaknine, M. Vahanwala, and J. Worrell
-		\vspace*{0.25cm}\newline\emph{LICS 2024,} \textbf{Distinguished Paper Award} 
-		\vspace*{0.2cm}
-  
-		\item \href{https://dl.acm.org/doi/10.2145/3641513.3650173}{\large Linear dynamical systems with continuous weight functions}
-            \vspace*{0.2cm}
-		\newline
-            R. Aghamov, C. Baier, T. Karimov, J. Piribauer, and J. Ouaknine
-		\vspace*{0.25cm}\newline\emph{HSCC 2024,} \textbf{ACM SIGBED Best Paper Award}
-		\vspace*{0.2cm}
-
-            \item 
-            \href{https://link.springer.com/chapter/10.2007/978-3-031-75775-4_13}{\large Model checking Markov chains as distribution transformers}
-            \vspace{0.2cm}\newline
-            R. Aghamov, C. Baier, T. Karimov, J. Nieuwveld, J. Ouaknine and M. Vahanwala
+		linear dynamical systems. \emph{Mathematical Foundations of Computer Science (MFCS) 2020}, online. \href{http://mfcs.mff.cuni.cz/2020/}{conference website}
+	\end{etaremune}
+	
+	\vspace*{0.15cm}
+	\section*{Publications in reverse chronological order\footnote{In theoretical computer science, the authors of a paper are usually listed in the alphabetical order. The papers in which Toghrul Karimov was the clear lead author are marked with an asterisk.}}
+	
+	\begin{etaremune}
+		\item 
+		{\large *Linear dynamical systems with weight functions} 
+		\href{https://toghrul-karimov.github.io/assets/papers/nahs-weights.pdf}{pdf}
+		\vspace*{0.2cm}\newline
+		R. Aghamov, C. Baier, T. Karimov, J. Piribauer, and J. Ouaknine
 		\vspace*{0.25cm}\newline
-            \emph{Principles of Verification: Cycling the Probabilistic Landscape, LNCS 15261, 2024}
-            \vspace*{0.2cm}
-            
-		\item 
-            \href{https://ieeexplore.ieee.org/document/10175758}{\large The power of Positivity}
-            \vspace{0.2cm}\newline
-            T. Karimov, E. Kelmendi, J. Nieuwveld, J. Ouaknine and J. Worrell
-            \vspace*{0.25cm}\newline
-		  \emph{LICS 2023} 
+		To appear in \emph{Nonlinear Analysis: Hybrid Systems}
 		\vspace*{0.2cm}
-  
-		\item 
-            \href{https://doi.org/10.2007/978-3-031-22337-2_2}{\large What's decidable about discrete linear dynamical systems?}
-            \vspace{0.2cm}\newline
-            T. Karimov, E. Kelmendi, J. Ouaknine and J. Worrell
+		
+		\item
+		{\large Model checking linear temporal logic with standpoint modalities}
+		\href{https://doi.org/10.24963/kr.2025/}{doi}
+		\vspace*{0.2cm}\newline
+		R. Aghamov, C. Baier, T. Karimov, R. Majumdar, J. Ouaknine, J. Piribauer, and T. Spork%
+		\vspace*{0.25cm}\newline 
+		\emph{Principles of Knowledge Representation and Reasoning (KR) 2025}
+		\vspace{0.2cm}
+		
+		\item
+		{\large Multiple reachability in linear dynamical systems}
+		\href{https://doi.org/10.1109/LICS65433.2025.00055}{doi}
+		\vspace*{0.2cm}\newline
+		T. Karimov, E. Kelmendi, J. Ouaknine, and J. Worrell
 		\vspace*{0.25cm}\newline
-            \emph{Principles of System Design--Thomas A. Henzinger Festschrift, LNCS 13660, 2022}
-            \vspace*{0.2cm}
+		\emph{Logic in Computer Science (LICS) 2025}
+		\vspace{0.2cm}
+		
+		\item
+		{\large Algorithmic applications of Schanuel's conjecture}
+		\href{https://doi.org/10.1007/978-3-031-97439-7_5}{doi}
+		\vspace*{0.2cm}\newline
+		T. Karimov, J. Nieuwveld, J. Ouaknine, M. Vahanwala and J. Worrell
+		\vspace*{0.25cm}\newline
+		\emph{Principles of Formal Quantitative Analysis: Essays Dedicated to Christel Baier on the Occasion of Her 60th Birthday}
+		\vspace{0.2cm}
+		
+		\item
+		{\large *Verification of linear dynamical systems via o-minimality of the real numbers}
+		\href{https://doi.org/10.4230/LIPIcs.ICALP.2025.163}{doi}%
+		\vspace*{0.2cm}\newline
+		T. Karimov
+		\vspace*{0.25cm}\newline
+		\emph{International Colloquium on Automata, Languages, and Programming (ICALP) 2025}
+		\vspace{0.2cm}
 		
 		\item 
-            \href{https://drops.dagstuhl.de/opus/volltexte/2022/17073/}{\large Parameter synthesis for parametric probabilistic dynamical systems and \\[0.2cm] prefix-independent specifications}
-            \vspace{0.2cm}\newline
-            C. Baier, F. Funke, S. Jantsch, T. Karimov, E. Lefaucheux, J. Ouaknine, D. Purser, \\[0.14cm] M.~Whiteland, and J. Worrell
-		\vspace*{0.25cm}\newline\emph{CONCUR 2022}
+		{\large On the decidability of Presburger arithmetic expanded with powers} \href{https://doi.org/10.1137/1.9781611978322.89}{doi}
+		\vspace*{0.2cm}\newline
+		T. Karimov, F. Luca, J. Nieuwveld, J. Ouaknine, and J. Worrell
+		\vspace*{0.25cm}\newline
+		\emph{Symposium on Discrete Algorithms (SODA) 2025}
+		\vspace{0.2cm}
+		
+		\item
+		{\large *The monadic theory of toric words} \href{https://doi.org/10.1016/j.tcs.2024.114959}{doi}
+		\vspace*{0.2cm}\newline
+		V. Berth\'e, T. Karimov, J. Nieuwveld, J. Ouaknine, M. Vahanwala, and J. Worrell
+		\vspace*{0.25cm}\newline
+		\emph{Theoretical Computer Science, Vol.\ 1025}
 		\vspace*{0.2cm}
-            
-		\item 
-            \href{https://drops.dagstuhl.de/opus/volltexte/2022/16838/}{\large The pseudo-reachability problem for diagonalisable linear dynamical systems}
-            \vspace{0.2cm}\newline
-            J. D'Costa, T. Karimov, R. Majumdar, J. Ouaknine, M. Salamati, and J. Worrell
-		\vspace*{0.25cm}\newline\emph{MFCS 2022}
+		
+		\item{\large On the decidability of monadic second-order logic with arithmetic predicates}  \href{https://doi.org/10.1145/3661814.3662119}{doi}
 		\vspace*{0.2cm}
-  
-  		\newpage
-		\item 
-            \href{https://dl.acm.org/doi/10.2145/3498727}{\large What's decidable about linear loops?}
-            \vspace{0.2cm}\newline
-            T. Karimov, E. Lefaucheux, J. Ouaknine, D. Purser, J. Worrell, and M. Whiteland
-		\vspace*{0.25cm}\newline\emph{POPL 2022, Proc. of the ACM on Programming Languages, Vol. 6}
-            \vspace*{0.2cm}
+		\newline
+		V. Berth\'e, T. Karimov, J. Nieuwveld, J. Ouaknine, M. Vahanwala, and J. Worrell
+		\vspace*{0.25cm}\newline
+		\emph{Logic in Computer Science (LICS) 2024} 
+		
+		\textbf{Distinguished Paper Award} 
+		\vspace*{0.2cm}
 		
 		\item 
-            \href{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2021.28}{\large The orbit problem for parametric linear dynamical systems}
-            \vspace{0.2cm}\newline
-            C. Baier, F. Funke, S. Jantsch, T. Karimov, E. Lefaucheux, F. Luca, J. Ouaknine, D. Purser, \\[0.14cm] M.~Whiteland, and J. Worrell
-		\vspace*{0.25cm}\newline \emph{CONCUR 2021}
-            \vspace*{0.2cm}
+		{\large *Linear dynamical systems with continuous weight functions}
+		\href{https://doi.org/10.1145/3641513.3650173}{doi}
+		\vspace*{0.2cm}
+		\newline
+		R. Aghamov, C. Baier, T. Karimov, J. Piribauer, and J. Ouaknine
+		\vspace*{0.25cm}\newline
+		\emph{Hybrid Systems: Computation and Control (HSCC) 2024} 
 		
-		\item \href{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.MFCS.2021.34}{\large The pseudo-Skolem problem is decidable}
-            \vspace{0.2cm}\newline
-            J. D'Costa, T. Karimov, R. Majumdar, J. Ouaknine, M. Salamati, S. Soudjani, and J. Worrell
-		\vspace*{0.25cm}\newline \emph{MFCS 2021}
-            \vspace*{0.2cm}
-		
-		\item 
-            \href{https://dl.acm.org/doi/10.2145/3434329}{\large Deciding $\omega$-regular properties on linear recurrence sequences}
-            \vspace{0.2cm}\newline
-            S. Almagor, T. Karimov, E. Kelmendi, J. Ouaknine, and J. Worrell
-            \vspace*{0.25cm}\newline
-		\emph{POPL 2021, Proc. of the ACM on Programming Languages, Vol. 5}
-            \vspace*{0.2cm}
+		\textbf{ACM SIGBED Best Paper Award}
+		\vspace*{0.2cm}
 		
 		\item 
-            \href{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.FSTTCS.2020.36}{\large Reachability in dynamical systems with rounding} 
-            \vspace{0.2cm}
-            \newline
-            C. Baier, F. Funke, S. Jantsch, T. Karimov, E. Lefaucheux, J. Ouaknine,
+		{\large Model checking Markov chains as distribution transformers}
+		\href{https://doi.org/10.1007/978-3-031-75775-4_13}{doi}
+		\vspace{0.2cm}\newline
+		R. Aghamov, C. Baier, T. Karimov, J. Nieuwveld, J. Ouaknine and M. Vahanwala
+		\vspace*{0.25cm}\newline
+		\emph{Principles of Verification: Cycling the Probabilistic Landscape. Essays Dedicated to Joost-Pieter Katoen on the Occasion of His 60th Birthday, Part II}
+		\vspace*{0.2cm}
+		
+		\item 
+		{\large *The power of Positivity}
+		\href{https://doi.org/10.1109/LICS56636.2023.10175758}{doi}
+		\vspace{0.2cm}\newline
+		T. Karimov, E. Kelmendi, J. Nieuwveld, J. Ouaknine and J. Worrell
+		\vspace*{0.25cm}\newline
+		\emph{ACM/IEEE Symposium on Logic in Computer Science (LICS) 2023} 
+		\vspace*{0.2cm}
+		
+		\item 
+		{\large *What's decidable about discrete linear dynamical systems?}
+		\href{https://doi.org/10.1007/978-3-031-22337-2_2}{doi}
+		\vspace{0.2cm}\newline
+		T. Karimov, E. Kelmendi, J. Ouaknine and J. Worrell
+		\vspace*{0.25cm}\newline
+		\emph{Principles of Systems Design: Essays Dedicated to Thomas A. Henzinger on the Occasion of His 60th Birthday}
+		\vspace*{0.2cm}
+		
+		\item 
+		{\large Parameter synthesis for parametric probabilistic dynamical systems and \\[0.2cm] prefix-independent specifications}
+		\href{https://doi.org/10.4230/LIPIcs.CONCUR.2022.10}{doi}
+		\vspace{0.2cm}\newline
+		C. Baier, F. Funke, S. Jantsch, T. Karimov, E. Lefaucheux, J. Ouaknine, D. Purser, M.~Whiteland, and J. Worrell
+		\vspace*{0.25cm}\newline\emph{International Conference on Concurrency Theory (CONCUR) 2022}
+		\vspace*{0.2cm}
+		
+		\item 
+		{\large *The pseudo-reachability problem for diagonalisable linear dynamical systems}
+		\href{https://doi.org/10.4230/LIPIcs.MFCS.2022.40}{doi}
+		\vspace{0.2cm}\newline
+		J. D'Costa, T. Karimov, R. Majumdar, J. Ouaknine, M. Salamati, and J. Worrell
+		\vspace*{0.25cm}\newline\emph{Mathematical Foundations of Computer Science (MFCS) 2022}%
+		\vspace*{0.2cm}
+		
+		\item 
+		{\large *What's decidable about linear loops?}
+		\href{https://doi.org/10.1145/3498727}{doi}
+		\vspace{0.2cm}\newline
+		T. Karimov, E. Lefaucheux, J. Ouaknine, D. Purser, J. Worrell, and M. Whiteland
+		\vspace*{0.25cm}\newline
+		\emph{POPL 2022, Proceedings of the ACM on Programming Languages, Vol. 6}
+		\vspace*{0.2cm}
+		
+		\item 
+		{\large The orbit problem for parametric linear dynamical systems}
+		\href{https://doi.org/10.4230/LIPIcs.CONCUR.2021.28}{doi}
+		\vspace{0.2cm}\newline
+		C. Baier, F. Funke, S. Jantsch, T. Karimov, E. Lefaucheux, F. Luca, J. Ouaknine, D. Purser, M.~Whiteland, and J. Worrell
+		\vspace*{0.25cm}\newline \emph{International Conference on Concurrency Theory (CONCUR) 2021}
+		\vspace*{0.2cm}
+		
+		\item 
+		{\large *The pseudo-Skolem problem is decidable}
+		\href{https://doi.org/10.4230/LIPIcs.MFCS.2021.34}{doi}
+		\vspace{0.2cm}\newline
+		J. D'Costa, T. Karimov, R. Majumdar, J. Ouaknine, M. Salamati, S. Soudjani, and J. Worrell%
+		\vspace*{0.25cm}\newline 
+		\emph{Mathematical Foundations of Computer Science (MFCS) 2021}%
+		\vspace*{0.2cm}
+		
+		\item 
+		{\large *Deciding $\omega$-regular properties on linear recurrence sequences}
+		\href{https://doi.org/10.1145/3434329}{doi}
+		\vspace{0.2cm}\newline
+		S. Almagor, T. Karimov, E. Kelmendi, J. Ouaknine, and J. Worrell
+		\vspace*{0.25cm}\newline
+		\emph{POPL 2021, Proceedings of the ACM on Programming Languages, Vol. 5}
+		\vspace*{0.2cm} 
+		
+		\item
+		{\large Reachability in dynamical systems with rounding} 
+		\href{https://doi.org/10.4230/LIPIcs.FSTTCS.2020.36}{doi}
+		\vspace{0.2cm} \newline
+		C. Baier, F. Funke, S. Jantsch, T. Karimov, E. Lefaucheux, J. Ouaknine,
 		A. Pouly, D. Purser, and M. Whiteland
-            \vspace*{0.25cm}\newline                 
-            \emph{FSTTCS 2020}
-            \vspace*{0.2cm}
+		\vspace*{0.25cm}\newline                 
+		\emph{Foundations of Software Technology and Theoretical Computer Science (FSTTCS) 2020}
+		\vspace*{0.2cm}
 		
 		\item 
-            \href{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.MFCS.2020.54}{\large On LTL model-checking for low-dimensional discrete linear dynamical systems}
-            \vspace{0.25cm}\newline       
-            T. Karimov, J. Ouaknine, and J. Worrell
-		\vspace*{0.2cm}\newline \emph{MFCS 2020}
-	\end{enumerate}
-
+		\large {*On LTL model-checking for low-dimensional discrete linear dynamical systems}
+		\href{https://doi.org/10.4230/LIPIcs.MFCS.2020.54}{doi}
+		\vspace{0.25cm}\newline       
+		T. Karimov, J. Ouaknine, and J. Worrell
+		\vspace*{0.2cm}\newline 
+		\emph{Mathematical Foundations of Computer Science (MFCS) 2020}
+		\vspace*{0.2cm}
+	\end{etaremune}
+	
+	\vspace*{0.1cm}
+	
+	\section*{Papers under peer review}
+	\begin{itemize}
+		\item
+		{\large Automata on $S$-adic words}
+		\href{https://arxiv.org/abs/2506.17460}{arXiv}
+		\vspace{0.2cm} \newline
+		V. Berth\'e, T. Karimov, and M. Vahanwala
+		\vspace*{0.2cm}
+		
+		\item 
+		{\large Preservation theorems for transducers outputs}
+		\href{https://toghrul-karimov.github.io/assets/papers/preservation-theorems.pdf}{pdf}
+		\vspace{0.2cm} \newline
+		V. Berth\'e, H. Goulet-Oullet, T. Karimov, D.Perrin, and M. Vahanwala
+		\vspace*{0.2cm}
+		
+		\item 
+		{\large *Rich sequences and decidability of logical theories}
+		\href{https://toghrul-karimov.github.io/assets/papers/rich-sequences.pdf}{pdf}
+		\vspace{0.2cm} \newline
+		T. Karimov, J, Nieuwveld, and J. Ouaknine
+		\vspace*{0.2cm}
+		
+		\item
+		{\large On the decidability of monadic theories of arithmetic predicates
+		}
+		\href{https://arxiv.org/abs/2405.07953}{arXiv}
+		\vspace{0.2cm} \newline
+		V. Berth\'e, T. Karimov, J. Nieuwveld, J. Ouaknine, M. Vahanwala, and J. Worrell
+		\vspace*{0.2cm}
+	\end{itemize}
 \end{document}
