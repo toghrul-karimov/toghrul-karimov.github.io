@@ -1,74 +1,129 @@
-* {-webkit-font-smoothing: antialiased;}
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
 
 body {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
     max-width: 900px;
+    margin: 20px auto 0;
+    padding: 0 16px;
     background-color: ghostwhite;
-    font-family: Georgia, sans-serif;
+    font-family: Georgia, serif;
 }
 
+a:visited {
+    color: blue;
+}
+
+/* Header: name on the left, photo on the right */
 #row1 {
-    flex: 1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-/* Create two equal columns that floats next to each other */
 #name-address {
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    float: left;
     width: 50%;
     padding: 10px;
 }
-#photoToghrul {
-    float: right;
+
+#name-address h1 {
+    font-size: 43px;
+    font-weight: normal;
+}
+
+#name-address p {
+    overflow-wrap: anywhere;
+}
+
+#photo {
     padding: 10px;
 }
 
-#photoToghrul2 {
-    float: right;
-    padding: 10px;
+#photo img {
+    display: block;
+    height: 300px;
+    width: auto;
 }
 
-#publications, #about-me {
-    flex: 1;
+/* Sections */
+#about-me,
+#publications {
     margin-left: 8px;
 }
 
-/*
-a {
-  color: blue;
-  text-decoration: none;
+#about-me {
+    margin-bottom: 60px;
 }
-*/
 
-a{
-  target = "_blank";
+#about-me h2,
+#publications h2 {
+    font-size: 35px;
+    font-weight: normal;
 }
-a:visited{
-  color: blue;
+
+#about-me p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* Publication list */
+#publications ol {
+    padding-left: 2.5em;
+}
+
+#publications li::marker {
+    color: #888;
 }
 
 .paper-name {
-  font-size: 130%;
-  line-height: 160%;
+    font-size: 130%;
+    line-height: 160%;
 }
 
-.paper{
-  margin-left: 2px;
-  padding-left: 5px;
-  line-height: 30px;
-  border-left: solid;
-  margin-bottom: 30px;
+.paper {
+    margin-left: 2px;
+    padding-left: 5px;
+    line-height: 30px;
+    border-left: solid;
+    margin-bottom: 30px;
+}
+
+/* Phones */
+@media (max-width: 600px) {
+    #row1 {
+        flex-direction: column;
+    }
+    #name-address {
+        width: 100%;
+        padding: 0;
+    }
+    #name-address h1 {
+        font-size: 34px;
+    }
+    #photo {
+        padding: 0;
+    }
+    #photo img {
+        width: 100%;
+        height: auto;
+    }
+    #about-me,
+    #publications {
+        margin-left: 0;
+    }
+    #about-me p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #publications ol {
+        padding-left: 2em;
+    }
 }
